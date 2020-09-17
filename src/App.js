@@ -2,11 +2,12 @@ import React from 'react';
 
 import './App.css';
 
+import ArticleListing from './containers/ArticleListing';
+
 function App() {
   return (
     <div className="App">
-       <h1>Article Listing</h1>
-       <p>cool</p>
+      <ArticleListing />
     </div>
   );
 }
